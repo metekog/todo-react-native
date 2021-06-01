@@ -11,14 +11,6 @@ import {
 } from "react-native";
 import Task from "./components/Task";
 
-const Mete = () => {
-  return (
-    <View style={styles.mete}>
-      <Text>Meteeee</Text>
-    </View>
-  );
-};
-
 export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
